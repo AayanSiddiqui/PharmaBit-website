@@ -1,366 +1,351 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<!-- For IE -->
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<!-- For Resposive Device -->
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<!-- For Window Tab Color -->
-		<!-- Chrome, Firefox OS and Opera -->
-		<meta name="theme-color" content="#2c2c2c">
-		<!-- Windows Phone -->
-		<meta name="msapplication-navbutton-color" content="#2c2c2c">
-		<!-- iOS Safari -->
-		<meta name="apple-mobile-web-app-status-bar-style" content="#2c2c2c">
-
-		<title>Gullu - Agency &amp; Startup HTML Template</title>
-
-		<!-- Favicon -->
-		<link rel="icon" type="image/png" sizes="56x56" href="images/fav-icon/icon.png">
-
-
-		<!-- Main style sheet -->
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<!-- responsive style sheet -->
-		<link rel="stylesheet" type="text/css" href="css/responsive.css">
-
-
-		<!-- Fix Internet Explorer ______________________________________-->
-
-		<!--[if lt IE 9]>
-			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-			<script src="vendor/html5shiv.js"></script>
-			<script src="vendor/respond.js"></script>
-		<![endif]-->
-
-			
-	</head>
-
-	<body>
-		<div class="main-page-wrapper">
-
-			<!-- ===================================================
-				Loading Transition
-			==================================================== -->
-			<div id="loader-wrapper">
-				<div id="loader">
-					<ul>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-					</ul>
-				</div>
-			</div>
-
-
-
-			<!-- 
-			=============================================
-				Theme Header
-			============================================== 
-			-->
-			<header class="theme-menu-wrapper menu-style-two full-width-menu inner-menu">
-				<div class="header-wrapper">
-					<div class="clearfix">
-						<!-- Logo -->
-						<div class="logo float-left tran4s"><a href="index.html"><img src="images/logo/logo4.png" alt="Logo"></a></div>
-
-						<!-- ============================ Theme Menu ========================= -->
-						<nav class="theme-main-menu float-right navbar" id="mega-menu-wrapper">
-							<!-- Brand and toggle get grouped for better mobile display -->
-						   <div class="navbar-header">
-						     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
-						       <span class="sr-only">Toggle navigation</span>
-						       <span class="icon-bar"></span>
-						       <span class="icon-bar"></span>
-						       <span class="icon-bar"></span>
-						     </button>
-						   </div>
-						   <!-- Collect the nav links, forms, and other content for toggling -->
-						   <div class="collapse navbar-collapse" id="navbar-collapse-1">
-								<ul class="nav">
-									<li class="dropdown-holder menu-list"><a href="index.html" class="tran3s">Home</a>
-										<ul class="sub-menu">
-											<li><a href="index.html">Home version one</a></li>
-											<li><a href="index-2.html">Home version Two</a></li>
-											<li><a href="index-3.html">Home version Three</a></li>
-											<li><a href="index-video.html">Home video version</a></li>
-										</ul>
-									</li>
-									<li class="dropdown-holder menu-list"><a href="#" class="tran3s">Pages</a>
-										<ul class="sub-menu">
-											<li><a href="blog-v1.html">Blog Grid</a></li>
-											<li><a href="blog-v2.html">Blog List</a></li>
-											<li><a href="blog-v4.html">Blog List Sidebar</a></li>
-											<li class="dropdown-holder"><a href="blog-v3.html">Blog Full Width</a>
-												<ul class="second-sub-menu">
-													<li><a href="blog-details.html">Blog details</a></li>
-													<li><a href="blog-details-sidebar.html">Blog details Sidebar</a></li>
-												</ul>
+<head>
+	<!-- set the encoding of your site -->
+	<meta charset="utf-8">
+	<!-- set the viewport width and initial-scale on mobile devices -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- set the apple mobile web app capable -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<!-- set the HandheldFriendly -->
+	<meta name="HandheldFriendly" content="True">
+	<!-- set the apple mobile web app status bar style -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<!-- set the description -->
+	<meta name="description" content="Be - Startup Business HTML Template">
+	<meta name="keywords" content="agency, Startup, bootstrap, business, corporate, creative, minimal, modern, onepage, personal, portfolio,  html5, responsive">
+	<meta name="author" content="Be - Startup Business HTML Template">
+	<!-- Page Title -->
+	<title>Be - Startup Business HTML Template</title>
+	<!-- include the site stylesheet -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400%7CWork+Sans:300,400,500,600" rel="stylesheet">
+	<!-- include the site stylesheet -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- include the site stylesheet -->
+	<link rel="stylesheet" href="css/fonts-icons.css">
+	<!-- include the site stylesheet -->
+	<link rel="stylesheet" href="css/plugin-resets.css">
+	<!-- include the site stylesheet -->
+	<link rel="stylesheet" href="style.css">
+	<!-- include the site stylesheet -->
+	<link rel="stylesheet" href="css/responsive.css">
+	<!-- include the site stylesheet -->
+	<link rel="stylesheet" href="css/color.css">
+</head>
+<body>
+	<!-- start of main page wrapper -->
+	<div id="wrapper">
+		<!-- start of preloader -->
+		<div class="loader-container" id="loader">
+			<div class="spinner spinner-round"></div>
+		</div><!-- end of preloader -->
+		<div class="w1">
+			<!-- start of page header -->
+			<header id="header">
+				<!-- header holder -->
+				<div class="header-holder border">
+					<div class="container">
+						<div class="row">
+							<div class="col-xs-12">
+								<!-- Page logo -->
+								<div class="logo pull-left"><a href="index.html">Be.</a></div>
+								<div class="holder pull-right">
+									<a href="#" class="pe-7s-menu menu-opener opener pull-right visible-xs"></a>
+									<div class="cart-holder pull-right">
+										<a href="#" class="cart-opener opener">
+											<span class="lnr lnr-store"></span>
+											<span class="num">3</span>
+										</a>
+										<div class="drop-sub">
+											<!-- side widget start here -->
+											<div class="side-widget">
+												<!-- cart row start here -->
+												<div class="cart-row">
+													<a href="#" class="img"><img src="http://placehold.it/50x50" alt="image" class="img-responsive"></a>
+													<div class="mt-h">
+														<span class="mt-h-title"><a href="#">Classic Handbag</a></span>
+														<span class="price">1 × $48.00</span>
+													</div>
+													<a href="#" class="close pe-7s-close"></a>
+												</div><!-- cart row end here -->
+												<!-- cart row start here -->
+												<div class="cart-row">
+													<a href="#" class="img"><img src="http://placehold.it/50x50" alt="image" class="img-responsive"></a>
+													<div class="mt-h">
+														<span class="mt-h-title"><a href="#">Stylish Hat</a></span>
+														<span class="price">2 × $18.00</span>
+													</div>
+													<a href="#" class="close pe-7s-close"></a>
+												</div><!-- cart row end here -->
+												<!-- cart row start here -->
+												<div class="cart-row">
+													<a href="#" class="img"><img src="http://placehold.it/50x50" alt="image" class="img-responsive"></a>
+													<div class="mt-h">
+														<span class="mt-h-title"><a href="#">Modern Shoes</a></span>
+														<span class="price">1 × $50.00</span>
+													</div>
+													<a href="#" class="close pe-7s-close"></a>
+												</div><!-- cart row end here -->
+												<!-- cart row total start here -->
+												<div class="cart-row-total">
+													<span class="mt-total pull-left">SubTotal</span>
+													<span class="mt-total-txt pull-right">$ 134.00</span>
+												</div>
+												<!-- cart row total end here -->
+												<div class="cart-btn-row">
+													<a href="#" class="btn-add btn">VIEW CART</a>
+													<a href="#" class="btn-full btn">CHECKOUT</a>
+												</div>
+											</div><!-- mt side widget end here -->
+										</div>
+									</div>
+									<a href="#" class="pe-7s-search search-opener pull-right opener"></a>
+									<!-- start of page navigation -->
+									<nav id="nav" class="text-uppercase">
+										<ul class="list-inline">
+											<li>
+												<a class="drop-link" href="#">Home</a>
+												<div class="drop">
+													<ul class="list-unstyled">
+														<li><a href="home1.html">HomePage 1</a></li>
+														<li><a href="home2.html">HomePage 2</a></li>
+														<li><a href="home3.html">HomePage 3</a></li>
+														<li><a href="home4.html">HomePage 4</a></li>
+														<li><a href="home5.html">HomePage 5</a></li>
+														<li><a href="home6.html">HomePage 6</a></li>
+														<li><a href="home7.html">HomePage 7</a></li>
+														<li><a href="home8.html">HomePage 8</a></li>
+														<li><a href="home9.html">HomePage 9</a></li>
+													</ul>
+												</div>
 											</li>
-											<li class="dropdown-holder"><a href="shop.html">Shop Page</a>
-												<ul class="second-sub-menu">
-													<li><a href="shop-details.html">Shop Details</a></li>
-												</ul>
+											<li>
+												<a class="drop-link" href="#">Pages</a>
+												<div class="drop">
+													<ul class="list-unstyled">
+														<li><a href="about.html">About Us</a></li>
+														<li><a href="team.html">Team</a></li>
+														<li><a href="services.html">Services</a></li>
+														<li><a href="contact.html">Contact</a></li>
+														<li><a href="coming-soon.html">Coming Soon</a></li>
+														<li><a href="404.html">Error 404</a></li>
+														<li><a href="500.html">Error 500</a></li>
+													</ul>
+												</div>
 											</li>
-											<li><a href="about-us.html">About us</a></li>
-											<li><a href="team-v1.html">Team Version one</a></li>
-											<li><a href="team-v2.html">Team Version Two</a></li>
-										</ul>
-									</li>
-									<li class="dropdown-holder menu-list"><a href="#" class="tran3s">Services</a>
-										<ul class="sub-menu">
-											<li><a href="service-v1.html">Service Version One</a></li>
-											<li><a href="service-v2.html">Service Version Two</a></li>
-											<li><a href="service-details.html">Service Details</a></li>
-										</ul>
-									</li>
-									<li class="dropdown-holder menu-list"><a href="#" class="tran3s">Portfolio</a>
-										<ul class="sub-menu">
-											<li><a href="portfolio-v1.html">Portfolio version one</a></li>
-											<li><a href="portfolio-v2.html">Portfolio version Two</a></li>
-											<li><a href="portfolio-v3.html">Portfolio version Three</a></li>
-											<li class="dropdown-holder"><a href="portfolio-v4.html">Portfolio version Four</a>
-												<ul class="second-sub-menu">
-													<li><a href="portfolio-details.html">Portfolio Details</a></li>
-													<li><a href="portfolio-details-v2.html">Portfolio Details v2</a></li>
-												</ul>
+											<li>
+												<a class="drop-link" href="#">Portfolio</a>
+												<div class="drop">
+													<ul class="list-unstyled">
+														<li><a href="portfolio.html">Portfolio Standard</a></li>
+														<li><a href="portfolio2.html">Portfolio Masonry</a></li>
+														<li><a href="portfolio-detail.html">Portfolio Details</a></li>
+													</ul>
+												</div>
+											</li>
+											<li>
+												<a class="drop-link" href="#">Shop</a>
+												<div class="drop">
+													<ul class="list-unstyled">
+														<li><a href="shop.html">Shop 3 Columns</a></li>
+														<li><a href="shop2.html">Shop 4 Columns</a></li>
+														<li><a href="shop-sidebar.html">Shop Left Sidebar</a></li>
+														<li><a href="shop-sidebar2.html">Shop Right Sidebar</a></li>
+														<li><a href="shop-detail.html">Product Details</a></li>
+														<li><a href="cart.html">Cart Page</a></li>
+														<li><a href="checkout.html">Checkout Page</a></li>
+													</ul>
+												</div>
+											</li>
+											<li>
+												<a class="drop-link" href="#">Blog</a>
+												<div class="drop">
+													<ul class="list-unstyled">
+														<li><a href="blog.html">Blog Standard</a></li>
+														<li><a href="blog-sidebar.html">Blog Left Sidebar</a></li>
+														<li><a href="blog-sidebar2.html">Blog Right Sidebar</a></li>
+														<li><a href="blog-detail-fullwidth.html">Blog Single</a></li>
+														<li><a href="blog-detail-leftsidebar.html">Blog Single Leftside</a></li>
+														<li><a href="blog-detail.html">Blog Single Rightside</a></li>
+													</ul>
+												</div>
+											</li>
+											<li>
+												<a class="drop-link" href="#">Elements</a>
+												<div class="drop">
+													<ul class="list-unstyled">
+														<li><a href="icontext.html">Icon with text</a></li>
+														<li><a href="testimonial.html">Testimonials</a></li>
+														<li><a href="price-table.html">Pricing Table</a></li>
+														<li><a href="progressbar.html">Progress Bar</a></li>
+														<li><a href="calltoaction.html">Call To Action</a></li>
+													</ul>
+												</div>
 											</li>
 										</ul>
-									</li>
-									<li class="menu-list active"><a href="contact.html" class="tran3s">Contact Us</a></li>
-									<li class="login-button"><a href="#" class="tran3s" data-toggle="modal" data-target=".signUpModal">login</a></li>
-								</ul>
-						   </div><!-- /.navbar-collapse -->
-						</nav> <!-- /.theme-main-menu -->
-					</div> <!-- /.clearfix -->
-				</div>
-			</header> <!-- /.theme-menu-wrapper -->
-			
-			<!-- 
-			=============================================
-				Theme Inner Banner 
-			============================================== 
-			-->
-			<div class="inner-page-banner">
-				<div class="opacity">
-					<h1>Contact US</h1>
-					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li>/</li>
-						<li>Contact</li>
-					</ul>
-				</div> <!-- /.opacity -->
-			</div> <!-- /inner-page-banner -->
-
-
-
-			<!-- 
-			=============================================
-				Contact Us
-			============================================== 
-			-->
-			<div class="contact-us">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-7 col-md-6 col-xs-12">
-							<div class="contact-us-form">
-								<form action="inc/sendemail.php" class="form-validation" autocomplete="off">
-									<input type="email" placeholder="Email Address*" name="email">
-									<input type="text" placeholder="Subject*" name="sub">
-									<textarea placeholder="Your Message*" name="message"></textarea>
-									<button class="p-bg-color hvr-trim-two">SEND MESSAGE</button>
-								</form>
-							</div> <!-- /.contact-us-form -->
-						</div> <!-- /.col- -->
-						<div class="col-lg-5 col-md-6 col-xs-12">
-							<div class="contact-address">
-								<h2>Don’t Hesitate to contact with us for any kind of information</h2>
-								<p>Call us for imiditate support this number</p>
-								<a href="#" class="tran3s">880 876 65 455</a>
-								<ul>
-									<li><a href="" class="tran3s"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-									<li><a href="" class="tran3s"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-									<li><a href="" class="tran3s"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
-									<li><a href="" class="tran3s"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-								</ul>
-							</div> <!-- /.contact-address -->
-						</div> <!-- /.col- -->
-					</div> <!-- /.row -->
-				</div> <!-- /.conatiner -->
-
-				<!--Contact Form Validation Markup -->
-				<!-- Contact alert -->
-				<div class="alert-wrapper" id="alert-success">
-					<div id="success">
-						<button class="closeAlert"><i class="fa fa-times" aria-hidden="true"></i></button>
-						<div class="wrapper">
-			               	<p>Your message was sent successfully.</p>
-			             </div>
-			        </div>
-			    </div> <!-- End of .alert_wrapper -->
-			    <div class="alert-wrapper" id="alert-error">
-			        <div id="error">
-			           	<button class="closeAlert"><i class="fa fa-times" aria-hidden="true"></i></button>
-			           	<div class="wrapper">
-			               	<p>Sorry!Something Went Wrong.</p>
-			            </div>
-			        </div>
-			    </div> <!-- End of .alert_wrapper -->
-			</div> <!-- /.contact-us -->
-
-
-			<!-- Google Map _______________________ -->
-			<div id="google-map-area">
-				<div class="google-map" id="contact-google-map" data-map-lat="40.925372" data-map-lng="-74.276544" data-map-title="Find Map" data-map-zoom="12"></div>
-	   		 </div>
-			
-			
-			
-
-			
-			<!-- 
-			=============================================
-				Footer
-			============================================== 
-			-->
-			<footer class="bg-two">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-3 col-sm-6 col-xs-12">
-							<div class="footer-logo">
-								<a href="index.html"><img src="images/logo/logo.png" alt="Logo"></a>
-								<h5><a href="#" class="tran3s">gulluinc@gmail.com</a></h5>
-								<h6 class="p-color">202. 277. 3894</h6>
+									</nav><!-- end of page navigation -->
+								</div>
 							</div>
 						</div>
-						<div class="col-md-3 col-sm-6 col-xs-12 footer-list">
-							<h4>Quick Links</h4>
-							<ul>
-								<li><a href="#" class="tran3s">How it Works</a></li>
-								<li><a href="#" class="tran3s">Guarantee</a></li>
-								<li><a href="#" class="tran3s">Security</a></li>
-								<li><a href="#" class="tran3s">Report Bug</a></li>
-								<li><a href="#" class="tran3s">Pricing</a></li>
-							</ul>
-						</div>
-						<div class="col-md-3 col-sm-6 col-xs-12 footer-list">
-							<h4>About Us</h4>
-							<ul>
-								<li><a href="#" class="tran3s">About Singleton</a></li>
-								<li><a href="#" class="tran3s">Jobs</a></li>
-								<li><a href="#" class="tran3s">Team</a></li>
-								<li><a href="#" class="tran3s">Testimonials</a></li>
-								<li><a href="#" class="tran3s">Blog</a></li>
-							</ul>
-						</div>
-						<div class="col-md-3 col-sm-6 col-xs-12 footer-subscribe">
-							<h4>Subscribe Us</h4>
-							<form action="#">
-								<input type="text" placeholder="Enter your mail">
-							</form>
-							<ul>
-								<li><a href="" class="tran3s"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-								<li><a href="" class="tran3s"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-								<li><a href="" class="tran3s"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
-								<li><a href="" class="tran3s"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-							</ul>
-						</div>
-					</div> <!-- /.row -->
-
-					<div class="bottom-footer clearfix">
-						<ul class="float-right">
-							<li><h3><span class="timer p-color" data-from="0" data-to="8997" data-speed="5000" data-refresh-interval="50">0</span> Products</h3></li>
-							<li><h3><span class="timer p-color" data-from="0" data-to="53701" data-speed="5000" data-refresh-interval="50">0</span> Members</h3></li>
-							<li><h3><span class="timer p-color" data-from="0" data-to="1110" data-speed="5000" data-refresh-interval="50">0</span> Shops</h3></li>
-						</ul>
-						<p class="float-left">&copy; 2017 <a href="#" class="tran3s p-color">CreativeGigs</a>. All rights reserved</p>
 					</div>
-				</div> <!-- /.container -->
-			</footer>
-
-
-			<!-- Sign-Up Modal -->
-			<div class="modal fade signUpModal theme-modal-box" role="dialog">
-				<div class="modal-dialog">
-				    <!-- Modal content-->
-				    <div class="modal-content">
-					    <div class="modal-body">
-					        <h3>Login with Social Networks</h3>
-					        <ul class="clearfix">
-					        	<li class="float-left"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i> facebook</a></li>
-					        	<li class="float-left"><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i> Google</a></li>
-					        	<li class="float-left"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a></li>
-					        	<li class="float-left"><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i> Linkedin</a></li>
-					        </ul>
-					        <form action="#">
-					        	<h6><span>or</span></h6>
-					        	<div class="wrapper">
-					        		<input type="text" placeholder="Username or Email">
-					        		<input type="password" placeholder="Password">
-					        		<ul class="clearfix">
-										<li class="float-left">
-											<input type="checkbox" id="remember">
-											<label for="remember">Remember Me</label>
-										</li>
-										<li class="float-right"><a href="#" class="p-color">Lost Your Password?</a></li>
-									</ul>
-									<button class="p-bg-color hvr-trim-two">Login</button>
-					        	</div>
-					        </form>
-					    </div> <!-- /.modal-body -->
-				    </div> <!-- /.modal-content -->
-				</div> <!-- /.modal-dialog -->
-			</div> <!-- /.signUpModal -->
-
-	        
-
-	        <!-- Scroll Top Button -->
-			<button class="scroll-top tran3s">
-				<i class="fa fa-angle-up" aria-hidden="true"></i>
-			</button>
-
-
-
-		<!-- Js File_________________________________ -->
-
-		<!-- j Query -->
-		<script type="text/javascript" src="vendor/jquery.2.2.3.min.js"></script>
-		<!-- Bootstrap Select JS -->
-		<script type="text/javascript" src="vendor/bootstrap-select/dist/js/bootstrap-select.js"></script>
-
-		<!-- Bootstrap JS -->
-		<script type="text/javascript" src="vendor/bootstrap/bootstrap.min.js"></script>
-
-		<!-- Vendor js _________ -->
-	    <!-- Mega menu  -->
-		<script type="text/javascript" src="vendor/bootstrap-mega-menu/js/menu.js"></script>
-		
-		<!-- WOW js -->
-		<script type="text/javascript" src="vendor/WOW-master/dist/wow.min.js"></script>
-		<!-- owl.carousel -->
-		<script type="text/javascript" src="vendor/owl-carousel/owl.carousel.min.js"></script>
-		<!-- js count to -->
-		<script type="text/javascript" src="vendor/jquery.appear.js"></script>
-		<script type="text/javascript" src="vendor/jquery.countTo.js"></script>
-		<!-- js ripels -->
-		<script type="text/javascript" src="vendor/jquery.ripples-master/dist/jquery.ripples-min.js"></script>
-		<!-- Validation -->
-		<script type="text/javascript" src="vendor/contact-form/validate.js"></script>
-		<script type="text/javascript" src="vendor/contact-form/jquery.form.js"></script>
-		<!-- Google map js -->
-		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBZ8VrXgGZ3QSC-0XubNhuB2uKKCwqVaD0&callback=googleMap" type="text/javascript"></script> <!-- Gmap Helper -->
-		<script src="vendor/gmaps.min.js"></script>
-
-
-		<!-- Theme js -->
-		<script type="text/javascript" src="js/theme.js"></script>
-		<script type="text/javascript" src="js/map-script.js"></script>
-
-		</div> <!-- /.main-page-wrapper -->
-	</body>
+				</div>
+			</header><!-- end of page header -->
+			<!-- start of search-popup -->
+			<div class="search-popup">
+				<div class="holder">
+					<a href="#" class="search-close"><span></span><span></span></a>
+					<div class="frame">
+						<form action="#">
+							<fieldset>
+								<input placeholder="Search here..." type="text">
+								<button class="pe-7s-search" type="submit"></button>
+							</fieldset>
+						</form>
+					</div>
+				</div>
+			</div><!-- end of search-popup -->
+			<!-- start of page main section -->
+			<main id="main" class="bg-grey">
+				<div class="map-holder mar-bottom-md">
+					<div class="map" data-lat="52.392363" data-lng="1.480408" data-zoom="8">
+						<div class="map-info">
+	            			<h2>Be - Startup Business</h2>
+	            			<p>Lorem ipsum dolor sit amet...</p>
+	        			</div>
+	        		</div>
+				</div>
+				<div class="container pad-top-xs">
+					<div class="row mar-bottom-md">
+						<div class="col-xs-12 col-sm-4 mar-bottom-xs">
+							<!-- start of info-box -->
+							<div class="info-box text-center">
+								<span class="pe-7s-call icon main-color"></span>
+								<span class="heading">Give Us a Call</span>
+								<p>Phone: (04) 491 570 110 <br>Fax: +30 512 470 910</p>
+							</div><!-- end of info-box -->
+						</div>
+						<div class="col-xs-12 col-sm-4 mar-bottom-xs">
+							<!-- start of info-box -->
+							<div class="info-box text-center">
+								<span class="pe-7s-map-2 icon main-color"></span>
+								<span class="heading">Visit Our Office</span>
+								<p>1220 Petersham town, Wardll St <br>Australia PA 6550.</p>
+							</div><!-- end of info-box -->
+						</div>
+						<div class="col-xs-12 col-sm-4 mar-bottom-xs">
+							<!-- start of info-box -->
+							<div class="info-box text-center">
+								<span class="pe-7s-monitor icon main-color"></span>
+								<span class="heading">Online Chat</span>
+								<p>Email: info@psdehat.com <br>Twitter: @psdehat</p>
+							</div><!-- end of info-box -->
+						</div>
+					</div>
+					<div class="border-top"></div>
+					<div class="row mar-bottom-md">
+						<div class="col-xs-12 pad-top-lg">
+							<!-- start of main-heading -->
+							<header class="main-heading text-center row">
+								<div class="col-xs-12">
+									<h2 class="heading">Get in Touch</h2>
+									<p>When you create your startup the only way to win <br>is to race ahead not to stop and fight.</p>
+								</div>
+							</header><!-- end of main-heading -->
+						</div>
+					</div>
+					<div class="row mar-bottom-lg">
+						<div class="col-xs-12 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
+							<form id="contactForm" data-toggle="validator">
+								<!-- start of contact-form -->
+								<div class="contact-form">
+									<div class="row">
+										<div class="col-xs-12">
+											<input type="text" class="form-control" placeholder="Your name*" id="name">
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-xs-12 col-sm-6">
+											<input type="email" class="form-control" placeholder="Email address*" id="email">
+										</div>
+										<div class="col-xs-12 col-sm-6">
+											<input type="text" class="form-control" placeholder="Phone number" id="phone">
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-xs-12">
+											<textarea name="message" cols="30" rows="10" class="form-control" placeholder="Your message*" id="message"></textarea>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-xs-12">
+											<div id="msgSubmit" class="form-message hidden"></div>
+											<button class="btn btn-full" type="submit" id="form-submit">Submit</button>
+										</div>
+									</div>
+								</div><!-- end of contact-form -->
+							</form>
+						</div>
+					</div>
+				</div>
+			</main><!-- end of page main section -->
+			<!-- start of page footer -->
+			<footer id="footer">
+				<div class="bg-dark2 pad-top-lg pad-bottom-xs">
+					<div class="container">
+						<div class="row">
+							<div class="col-xs-12 col-sm-4 mar-bottom-xs">
+								<!-- logo -->
+								<div class="logo"><a href="#">Be.</a></div>
+								<p>Proin gravida nibh vel velit auctor aliquet <br>Aenean sollicitdin lorem quis. bindum auctor,  <br>nisi elit consequat ipsum sagittis.</p>
+								<!-- social -->
+								<ul class="list-inline social pad-top-xs">
+									<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+								</ul>
+							</div>
+							<div class="col-xs-12 col-sm-4 mar-bottom-xs">
+								<span class="title text-uppercase">Latest News</span>
+								<!-- start of twitter-feed -->
+								<ul class="list-unstyled twitter-feed">
+									<li><i class="fa fa-twitter" aria-hidden="true"></i>Forms don't have to be dull. Check out these great examples of subtly animated forms. <a href="#">http://enva.to/tTavD</a> </li>
+									<li><i class="fa fa-twitter" aria-hidden="true"></i>Take a look behind the scenes &amp; take a look at the process of designing the Envato Blog. #webdesign</li>
+								</ul><!-- end of twitter-feed -->
+							</div>
+							<div class="col-xs-12 col-sm-4 mar-bottom-xs">
+								<span class="title text-uppercase">Get In Touch</span>
+								<!-- start of email-form -->
+								<form action="#" class="email-form">
+									<label for="email-input">Get latest news & updates and special promotions.</label>
+									<div class="holder">
+										<input id="email-input" type="text" class="input" placeholder="Email address*">
+										<button type="submit" class="btn btn-green">Subscribe</button>
+									</div>
+								</form><!-- end of email-form -->
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- start of f-bottom -->
+				<div class="bg-dark3 f-bottom">
+					<div class="container">
+						<div class="row">
+							<div class="col-xs-12">
+								<span class="pull-left">© Be 2016, All Rights Reserved.</span>
+								<span class="pull-right"><a href="#">Policy Privacy</a>  &nbsp; &nbsp; &nbsp; &nbsp; <a href="#">Terms &amp; Conditions</a></span>
+							</div>
+						</div>
+					</div>
+				</div><!-- end of f-bottom -->
+			</footer><!-- end of page footer -->
+		</div>
+		<!-- Back Top of the page -->
+	    <span id="back-top" class="pe-7s-angle-up main-bg-color"></span>
+	</div><!-- end of main page wrapper -->
+	<script src="js/jquery.js"></script>
+	<script src="js/plugins.js"></script>
+	<script src="js/jquery.main.js"></script>
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+</body>
 </html>
