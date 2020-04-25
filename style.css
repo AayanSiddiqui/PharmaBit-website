@@ -709,7 +709,7 @@ img.aligncenter {
 }
 
 .pad-top-xs {
-  padding-top: 30px !important;
+  padding-top: 100px !important;
 }
 
 .pad-top-sm {
@@ -754,6 +754,10 @@ img.aligncenter {
 
 .pad-bottom-lg {
   padding-bottom: 90px !important;
+}
+
+.pad-bottom-lg2 {
+  padding-bottom: 50px !important;
 }
 
 body {
