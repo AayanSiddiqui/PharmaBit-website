@@ -724,12 +724,20 @@ img.aligncenter {
   padding-top: 90px !important;
 }
 
+.pad-top-lg2 {
+  padding-top: 40px !important;
+}
+
 .mar-bottom-xs {
   margin-bottom: 30px !important;
 }
 
 .mar-bottom-sm {
   margin-bottom: 60px !important;
+}
+
+.mar-bottom-sm2 {
+  margin-bottom: 10px !important;
 }
 
 .mar-bottom-md {
@@ -758,6 +766,10 @@ img.aligncenter {
 
 .pad-bottom-lg2 {
   padding-bottom: 50px !important;
+}
+
+.pad-bottom-lg3 {
+  padding-bottom: 10px !important;
 }
 
 body {
@@ -1089,7 +1101,7 @@ button,
 }
 
 #header.nospace .opener {
-  color: #fff;
+  color: rgb(255, 255, 255);
 }
 
 #header.nospace .opener .num {
@@ -2656,7 +2668,7 @@ button,
   vertical-align: middle;
   letter-spacing: -0.8px;
   margin: -5px 54px 0 -8px;
-  font: 600 29px/50px "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 600 35px/50px "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 /*------------------------------------------------------------------

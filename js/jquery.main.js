@@ -210,6 +210,7 @@ $(document).ready(function() {
 					if (flag){
 						flag = false;
 						header.addClass(stickyClass);
+						$('.logo img').attr('src','images/logo-1-gradient.png');
 					}
 				} else {
 					if (!flag) {
