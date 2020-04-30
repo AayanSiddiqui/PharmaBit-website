@@ -1125,7 +1125,7 @@ button,
   left: 0;
   right: 0;
   position: fixed;
-  background: #fafafa;
+  background: #363636;
   -webkit-box-shadow: 0 0 25px rgba(0, 0, 0, 0.08);
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.08);
 }
@@ -1147,7 +1147,7 @@ button,
 }
 
 #header.sticky .header-holder #nav a {
-  color: #999;
+  color: #fff;
 }
 
 #header .holder {
